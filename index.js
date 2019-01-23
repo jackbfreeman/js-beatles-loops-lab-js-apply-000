@@ -23,10 +23,11 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveTheBeatles(n) {
-  var n = 0
-  var loveDeclaration = []
+  var n = 0;
+  var loveDeclaration = [];
   do {
-    loveDeclaration.push("I love the Beatles!")
+    loveDeclaration.push("I love the Beatles!");
+    n++;
   } while (n < 15);
-  return loveDeclaration
+  return loveDeclaration;
 }
